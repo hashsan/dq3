@@ -10,7 +10,7 @@ dq3 theme
 }
 .dq3-free{
  ...
-width:100%;
+ width:100%;
 }
 ```
 
