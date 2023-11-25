@@ -84,7 +84,8 @@ a:hover:before{
   to{visibility:hidden;}
 }
 
-[contenteditable],.pre,.code{
+/*[contenteditable],*/
+.pre,.code{
   word-break:break-all;
   white-space:pre-wrap;
 }
