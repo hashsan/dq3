@@ -1,0 +1,96 @@
+/*
+v0.1 launched! 
+*/
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+html{
+  scroll-behavior:smooth;
+}
+
+html{
+  font-size:16px;
+  color:#eee;
+  background:#000;
+  line-height:1.6;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.dq3{
+  width:480px;
+  
+  background:#333;
+  border-radius:0.4rem;
+  border:3px solid #eee;
+  box-sizing:border-box;
+  
+  margin:auto;
+  margin-bottom:1rem;
+
+  padding:1rem;
+  outline:unset;
+}
+
+.dq3.full{
+ width:100%;
+}
+
+h1,h2,h3,h4,h5,mark{
+  font-size:1.3rem;
+  margin:0;
+  padding:0;
+  background:unset;
+  color:inherit;
+}
+p{
+  margin:0;
+  padding:0;
+}
+
+img{
+  filter:grayscale(0.9);
+  border-radius:0.4rem;
+}
+img:hover{
+  filter:unset;
+}
+img.para{
+  width:70%;
+  object-fit:contain;  
+}
+img.dq3{
+  object-fit:cover;
+  max-height:480px;
+  display:block;
+  object-position:top center;
+}
+
+
+a{
+  cursor:pointer;
+  color:inherit;
+  text-decoration:none;
+}
+a:before{
+  content:'▶';
+  opacity:0.3;
+  padding-right:2px;  
+}
+a:hover:before{
+  opacity:1.0;
+  animation: blink 1s steps(5, start) infinite;  
+}
+
+@keyframes blink{
+  to{visibility:hidden;}
+}
+
+[contenteditable],.pre,.code{
+  word-break:break-all;
+  white-space:pre-wrap;
+}
+
+nav,.nav{
+  display:flex;
+  flex-direction:column;
+}
+
