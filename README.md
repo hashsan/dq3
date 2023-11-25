@@ -14,5 +14,11 @@ dq3 theme
 }
 ```
 
+# dq3 editor
+- if add body.readonly is readonly mode. can not edit.
+```
+document.body.append(new dq3().ed)
+```
+
 # image
 ![](dq3.png)
