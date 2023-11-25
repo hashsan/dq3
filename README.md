@@ -17,7 +17,10 @@ dq3 theme
 # dq3 editor
 - if add body.readonly is readonly mode. can not edit.
 ```
+import {dq3} from "//hashsan.github.io/dq3/dq3.js"
+
 document.body.append(new dq3().ed)
+
 ```
 
 # image
