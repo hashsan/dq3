@@ -8,7 +8,7 @@ dq3 theme
  ...
  width:480px;
 }
-.dq3-free{
+.dq3f{
  ...
  width:100%;
 }
